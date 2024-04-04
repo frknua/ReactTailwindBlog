@@ -12,7 +12,7 @@ import Tags from './pages/Tags';
 function App() {
   return (
     <div className="flex flex-col h-screen">
-      <BrowserRouter>
+      <BrowserRouter basename='/ReactTailwindBlog'>
         <Navbar />
         <Routes>
           <Route index element={<Home />} />
